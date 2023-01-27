@@ -1,10 +1,3 @@
-"""
-Visualization script for part 1 (Barcelona)
-
-Note: You don't have to change this script for the assignment, but you
-can if you'd like to change the images or other parameters
-
-"""
 
 import os
 import glob
