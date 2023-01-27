@@ -1,8 +1,4 @@
-"""
-utils functions for part 1 (Barcelona)
-STUDENTS SHOULDN'T NEED TO CHANGE THIS
 
-"""
 
 import numpy as np
 from matplotlib.path import Path
@@ -10,10 +6,6 @@ from matplotlib.path import Path
 
 def calculate_interior_pts(image_size, corners):
     """
-    Calculate_interior_pts takes in the size of an image and a set of corners
-    that define a polygon in the image, and returns all (x,y) points within
-    the polygon
-
     Input:
         image_size: size of image in [y,x]
         corners: the four corners of a polygon in [x,y] format
@@ -36,8 +28,6 @@ def calculate_interior_pts(image_size, corners):
 
 def inverse_warping(img_initial, img_final, pts_initial, pts_final):
     """
-    takes two images and a set of correspondences between them,
-    and warps all the pts_inital in img_initial to the pts_final in img_final
 
     Input:
         img_initial: initial image on top of which we want to overlay img_final
@@ -49,7 +39,7 @@ def inverse_warping(img_initial, img_final, pts_initial, pts_final):
 
     """
 
-    # YOU SHOULDN'T NEED TO CHANGE THIS
+
     pts_final = pts_final.astype(int)
 
     projected_img = img_initial.copy()
