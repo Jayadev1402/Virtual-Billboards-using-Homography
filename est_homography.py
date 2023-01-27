@@ -2,10 +2,6 @@ import numpy as np
 
 def est_homography(X, X_prime):
     """
-    Calculates the homography of two planes, from the plane defined by X
-    to the plane defined by X_prime. In this assignment, X are the coordinates of the
-    four corners of the soccer goal while X_prime are the four corners of the penn logo
-
     Input:
         X: 4x2 matrix of (x,y) coordinates of goal corners in video frame
         X_prime: 4x2 matrix of (x,y) coordinates of logo corners in penn logo
