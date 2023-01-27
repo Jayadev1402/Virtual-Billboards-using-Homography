@@ -9,4 +9,4 @@ The project includes images from a video sequence of a football match, as well a
 
 The task is to, for each image in the video sequence, compute the homography between the Penn logo and the goal, and then warp the goal points onto the ones in the Penn logo to generate a projection of the logo onto the video frame.
 
-![alt text](http://url/to/img.png)
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
