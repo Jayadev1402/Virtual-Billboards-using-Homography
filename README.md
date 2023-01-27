@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Note, we already provide the VSCode debugging config in the `.vscode` folder, you can select the `Run HW1` and press `F5` to start debugging. (to select a debug configuration, press `F1` and type `Debug: select and start debugging`, once selected this config, you can directly press `F5` in the future to use the same config)
 
-# TODO
+# Description
 
 This project utilizes the concepts of projective geometry and homographies to project an image (in this case, the Penn Engineering logo) onto a scene (a football goal) in a natural way that respects perspective.
 
