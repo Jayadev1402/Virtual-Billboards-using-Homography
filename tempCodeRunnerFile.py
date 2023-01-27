@@ -1,1 +1,0 @@
-goal_corners = goal_data[i]
